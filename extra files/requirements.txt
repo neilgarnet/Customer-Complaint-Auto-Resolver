@@ -1,0 +1,11 @@
+transformers
+torch
+datasets
+pandas
+scikit-learn
+sentence-transformers
+faiss-cpu
+fastapi
+streamlit
+
+#pip install -r requirements.txt

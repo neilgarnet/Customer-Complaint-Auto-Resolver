@@ -1,0 +1,30 @@
+URGENCY MODEL EVALUATION
+========================
+
+Accuracy: 0.4736
+
+Weighted Metrics:
+Precision: 0.3777
+Recall:    0.4736
+F1-score:  0.3723
+
+Macro Metrics:
+Precision: 0.3454
+Recall:    0.3877
+F1-score:  0.3193
+
+Confusion Matrix:
+[[114   0 344]
+ [ 28   0 351]
+ [ 55   0 586]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        high       0.58      0.25      0.35       458
+         low       0.00      0.00      0.00       379
+      medium       0.46      0.91      0.61       641
+
+    accuracy                           0.47      1478
+   macro avg       0.35      0.39      0.32      1478
+weighted avg       0.38      0.47      0.37      1478

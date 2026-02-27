@@ -1,0 +1,40 @@
+SENTIMENT MODEL EVALUATION
+===========================
+
+Accuracy: 0.7427
+
+Weighted Metrics:
+Precision: 0.5516
+Recall:    0.7427
+F1-score:  0.6331
+
+Macro Metrics:
+Precision: 0.0928
+Recall:    0.1250
+F1-score:  0.1065
+
+Confusion Matrix:
+[[   0    0    0    0    0    6    0    0]
+ [   0    0    0    0    0    1    0    0]
+ [   0    0    0    0    0    1    0    0]
+ [   0    0    0    0    0    1    0    0]
+ [   0    0    0    0    0    8    0    0]
+ [   0    0    0    0    0 1097    0    0]
+ [   0    0    0    0    0  240    0    0]
+ [   0    0    0    0    0  123    0    0]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       angry       0.00      0.00      0.00         6
+     annoyed       0.00      0.00      0.00         1
+     anxious       0.00      0.00      0.00         1
+disappointed       0.00      0.00      0.00         1
+  frustrated       0.00      0.00      0.00         8
+    negative       0.74      1.00      0.85      1097
+     neutral       0.00      0.00      0.00       240
+    positive       0.00      0.00      0.00       123
+
+    accuracy                           0.74      1477
+   macro avg       0.09      0.12      0.11      1477
+weighted avg       0.55      0.74      0.63      1477

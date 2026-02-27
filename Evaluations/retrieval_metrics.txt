@@ -1,0 +1,8 @@
+RETRIEVAL MODEL EVALUATION
+==========================
+
+Top‑1 Accuracy: 0.0048
+Top‑3 Accuracy: 0.0087
+Recall@3: 0.0087
+MRR: 0.0107
+Average Cosine Similarity: 0.0091
